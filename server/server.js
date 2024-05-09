@@ -6,6 +6,11 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
+app.get("/test",(req,res)=>{
+  res.send("Hey I am Working !!")
+})
+
+
 app.post('/fizzbuzz', (req, res) => {
   const { values } = req.body;
   console.log(`These are the values that i gotcha`,values);
