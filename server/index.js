@@ -5,14 +5,14 @@ const port = 5000;
 
 app.use(cors());
 app.use(express.json());
-
-app.use("/",(req,res)=>{
-  res.send("Server is Running.");
-})
-
+ 
 
 app.get("/test",(req,res)=>{
   res.send("Hey I am Working !!")
+})
+
+app.use("/",(req,res)=>{
+  res.json({message:"Hello"})
 })
 
 
