@@ -21,22 +21,3 @@ Demonstrate Single Responsiblity Principle
 Seperation of Concerns
 Test Automations 
 
-
-/*
-Backend (Node.js):
-
-We'll create an Express server to handle the API requests.
-We'll define a route to accept the array of values and process them.
-We'll create a separate module to handle the fizzbuzz logic, following the Single Responsibility Principle.
-We'll write unit tests for the fizzbuzz logic module using a testing framework like Jest or Mocha.
-
-
-Frontend (React.js):
-
-We'll create a React application to interact with the backend API.
-We'll have a form component to accept the array of values from the user.
-We'll send the array to the backend API and display the results.
-We'll create a separate component to display the results in a user-friendly way.
-We'll write unit tests for the React components using a testing framework like Jest or React Testing Library.
-
-*/
